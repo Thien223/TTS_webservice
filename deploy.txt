@@ -1,0 +1,12 @@
+
+on Windows:
+	pip3 install flask waitress
+	waitress-serve --listen=*:80 app:app
+	
+on Linux:
+	pip3 install flask gunicorn
+	gunicorn app:app -b localhost:80 &
+	
+	
+	
+sc create LNGService binpath= "C:\Users\locs\AppData\Local\Programs\Python\Python36\python.exe D:\LNG_Generation\LNG_energy_generation\webserver.py" DisplayName= "LNGService" start= auto

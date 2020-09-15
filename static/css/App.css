@@ -1,0 +1,233 @@
+/* body css */
+
+#wrapper{
+  background-color: #f0f3f5;
+  min-height: 100vh;
+  min-width: 100vw;
+  font-family: sans-serif;
+  font-size: 16px + 2vh;
+}
+
+input, select{
+  background-color: #F8FAFC;
+  border : solid 1px #5C6873;
+  width : 100%;
+  height: 100%;
+  border-radius: 3px;
+}
+
+/* span{
+  color: #F8FAFC !important;
+  width: inherit;
+  text-align: center;,
+
+} */
+span{
+  background-color: transparent;
+}
+table{
+  /* background-color: #f0f3f5; */
+  color: #F8FAFC !important;
+  width: 100%;
+
+}
+
+table > thead, 
+table > thead > tr,
+table > thead > tr > td,
+table > thead > tr > td > span,
+table > tbody,
+table > tbody > tr,
+table > tbody > tr > td,
+table > tbody > tr > td > span,
+{
+  width: 100%;
+  height: 100%;
+}
+
+table > thead,
+table > thead > tr > td > span
+{
+  background-color: #5C6873 !important;
+  color : 	#F8FAFC !important;
+  font-weight: bolder !important;
+  text-align: center;
+}
+
+table > tbody > tr > td{
+  background-color : #F8FAFC;
+  color : #5C6873;
+  width: 100%;
+}
+
+tr > td{
+  padding: 5px;
+}
+/* table > tbody > tr > td{
+  background-color : #F8FAFC;
+  color : #5C6873;
+  width: 100%;
+} */
+
+hr{
+  border : solid 1px #3A4146;
+}
+
+button {
+  background-color: #20a8d8; 
+  color: #F8FAFC; 
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border : none !important;
+  border-radius: 5px;
+  padding : 1em;
+  margin : 5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+  min-width: 80px;
+}
+
+button:hover {
+  background-color: #008CBA;
+}
+
+/* left css */
+#left-container{
+  width : 15%;
+  min-height: 100vh;
+  background-color: #2F353A;
+  color : #f0f3f5;
+  font-weight: bold;
+  text-align: left;
+  padding: 2em;
+}
+
+#div-system-infos,
+#div-menu-items
+{
+  padding: 1.5em;
+}
+
+#div-menu-items > div{
+  padding: 1em;
+}
+
+#div-menu-items > div > div:first-child{
+  font-size: large;
+  background-color: #20a8d8;
+  width: 250px;
+  border-radius: 5px;
+  padding : 5px;
+}
+#div-system-infos,
+#div-system-infos >  div,
+#div-system-infos >  div > span,
+#div-menu-items,
+#div-menu-items >  div > div,
+#div-menu-items >  div > div > div,
+#div-menu-items >  div > div > div > span
+{
+  color : #f0f3f5 !important;
+}
+
+#left-container #div-system-infos >  div{
+  padding : 8px;
+}
+
+#left-container #div-system-infos >  div:first-child > span{
+  font-size: x-large;
+  text-align: center;
+  padding : 0.3em;
+  color : #f0f3f5 !important;
+}
+
+
+
+/* right css */
+#graph-container{
+  width : 70%;
+  min-height: 100vh;
+  padding : 2em;
+  color: #5C6873 !important;
+}
+
+#graph-container > div {
+  border-radius: 20px;
+  background-color: #E4E7EA;
+  width : 100%;
+  height: 100%;
+  border: none;
+  margin : 10px;
+}
+
+.upper-input
+{
+  /* background-color: 	#acb4bc !important; */
+  color: #5c6873 !important;
+  font-weight: bold;
+  text-shadow: none;
+  width: 100%;
+  /* display: inline; */
+}
+
+.upper-input > div > span
+{
+  color: #2F353A !important;
+  font-weight: bold;
+}
+
+.upper-input > div > input
+{
+  min-width: 150px;
+  margin : 10px;
+  min-height: 30px;
+}
+
+#div-pressure-cleaned-input{
+  height: 100%;
+  width: 100%;
+  display: -webkit-flex;
+  display: flex;
+  padding: 1em;
+  -moz-column-count: 3;
+  -moz-column-gap: 1em;
+  -webkit-column-count: 3;
+  -webkit-column-gap: 1em;
+  column-count: 3;
+  column-gap: 1em;
+  vertical-align: top;
+  text-align: left;
+  
+}
+
+#div-pressure-cleaned-input > div {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#graph-lower-container{
+    height: 100%;
+    width: 100%;
+    display: -webkit-flex;
+    display: flex;
+    padding: 1em;
+    -moz-column-count: 2;
+    -moz-column-gap: 1em;
+    -webkit-column-count: 23;
+    -webkit-column-gap: 1em;
+    column-count: 2;
+    column-gap: 1em;
+    vertical-align: top;
+    text-align: left;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#graph-lower-container > div > div:first-child{
+  min-height: 50px;
+}

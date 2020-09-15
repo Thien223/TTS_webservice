@@ -1,0 +1,1 @@
+['니는 맺댈 ']|['D:\\locs\\projects\\locs_projects\\on_working\\TTS_web_service/temp_output/inference\\speech-mel-batch_0_sentence_0.npy']굈

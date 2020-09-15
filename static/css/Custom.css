@@ -1,0 +1,59 @@
+/* CSS reset */
+/* html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {margin: 0;padding: 0;border: 0;outline: 0;font-weight: inherit;font-style: inherit;font-size: 100%;font-family: inherit;vertical-align: baseline;} */
+ol, ul {list-style: none;}
+/* tables still need 'cellspacing="0"' in the markup */
+/* table {border-collapse: separate;border-spacing: 0;} */
+caption, th, td {text-align: left;font-weight: normal;}
+
+/*global setting*/
+*{margin:0;padding:0;color:#5c6873}
+body {vertical-align: middle;background-color: rgb(1, 14, 22);line-height: 1.608;margin:0;padding:0;font-family: Batang;width: 100vw;  position: relative;  left: 50%;  right: 50%;  margin-left: -50vw;  margin-right: -50vw; }
+/* table{border-collapse: collapse;width:100%} */
+/* table, thead, tbody, tr, td{border: 1px solid white; padding:3px} */
+/* div{display:block; float:left} */
+/* select{color:#FEAE3C;  border:none;height:100%; width:100%; } */
+input, .label-input{font-family:Batang; border: none;color:rgb(255, 255, 255);height: 100%;font-weight: bold}
+/* hr {border: 0;margin-top:1px;height: 1px;background: #152845;background-image: -webkit-linear-gradient(left, #152845, #ffffff, #152845);background-image: -moz-linear-gradient(left, #152845, #ffffff, #152845);background-image: -ms-linear-gradient(left, #152845, #ffffff, #152845);background-image: -o-linear-gradient(left, #152845, #fff, #152845);} */
+
+/*classified elements class setting*/
+.upper-input{height:32px; width:calc(100% - 1px);margin: 5px;}
+.temperature-input-textbox{color: #faa732;  padding:5px  ; width:95%}
+.textbox-input{padding:0 5px;width:75px;border-radius: 15px;;border: 1px solid gray; color: #faa732; }
+.div-input, .div-output{margin: 10px;float:left}
+.table-input{max-height: 150px; overflow: auto}
+.data-table thead{text-align: center}
+.data-table{height: 150px; overflow: auto; width:100%}
+.lower-element{width:100%;margin:5px;max-height:250px; overflow:auto}
+/* .button{color:white;font-family:Batang;border: 2px outset white;border-radius: 5px;height:100%;padding:3px; width:auto} */
+/* .button:hover{background-color:rgba(28, 245, 93, 0.336);font-family:Batang;border: 2px outset white;border-radius: 5px;height:100%;padding:3px} */
+/* .button:focus{background-color:rgba(28, 245, 93, 0.336);font-family:Batang;border: 2px outset white;border-radius: 5px;height:100%;padding:3px} */
+.graph{margin:10px 10px; display:block;}
+/* .tab-button{color:rgb(190, 190, 190) ;margin:7px 0px 0px 20px; border: 1px solid gray;width: 75px; height: 30px} */
+.text-temp{font-family: sans-serif;font-size: 40px; font-weight: bolder; color:#FEAE3C}
+.text-temp-small{padding-top:40px;font-family: sans-serif;font-size: 20px; font-weight: 400; color:rgba(190, 183, 173, 0.651)}
+.celc{color: rgba(190, 183, 173, 0.651); font-size:15px; font-weight:200; vertical-align: super}
+/* button.tab-button-active{margin:7px 0px 0px 20px; background-color:darkslategrey; color:rgb(255, 255, 255) ;border: 1px solid rgb(255, 255, 255);width: 75px; height: 30px} */
+.div-time{color:rgba(190, 183, 173, 0.651)}
+/*private element id setting*/
+#temperature{width:100%;height:160px; display:inline-block}
+#temp_before,#temp_now,#temp_latter{float:left}
+#div-system-info{padding:5px;}
+#left-container{min-height: 910px; display:block;background-color: #152845; color: rgb(71, 68, 68);float:left;width:16%;padding: 0px; margin:0px 6px 5px 10px;border:1px solid white}
+#graph-container{width: 81%;height:inherit;float:left;}
+#wrapper{vertical-align: middle; text-align: center; margin: 0px 20px;min-width: 1481px; height:100%;background-color: rgb(1, 14, 22); color: rgb(71, 68, 68);float:left;font-family: Batang;width: 100vw;  position: relative;left: 50%;right: 50%;margin-left: -50vw;margin-right: -50vw; }
+#div-date-input{width: 20%}
+#div-power-output-wrapper{display:block;width:75%;}
+#div-pressure-cleaned-input{width: 100%; height:34px}
+#div-pressure-input,#div-cleaned-time-input{height:100%}
+#graph-lower-container,#graph-upper-container{width:100%;border:1px solid white; display: inline-block}
+/* .button-inlet-type{margin-left: 0%; height:44px; padding-bottom:0px} */
+#left-graph-container{float:left; width:30%}
+#right-graph-container{float:left; width:70%}
+#div-calculated-output-graph{margin:10px 10px;height:510px; }
